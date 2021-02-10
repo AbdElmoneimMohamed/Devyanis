@@ -9,8 +9,12 @@ this project build with docker ( php:7.4-apache ) image.
 to run this project following next steps :
 
     * cd Devyanis/docker
-    * composer docker-compose up -d
+    * docker-compose up -d
     * open the http://localhost:8181 to lunch the project
 
+if you get Bad credentials message instead of data table just change 
+1- GITHUB_TOKEN
+2- GITHUB_USER
 
+in constants.php file with your credentials
 
