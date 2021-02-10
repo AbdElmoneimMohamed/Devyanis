@@ -13,8 +13,9 @@ to run this project following next steps :
     * open the http://localhost:8181 to lunch the project
 
 if you get Bad credentials message instead of data table just change 
-1- GITHUB_TOKEN
-2- GITHUB_USER
 
-in constants.php file with your credentials
+    * GITHUB_TOKEN (get it from this link https://github.com/settings/tokens)
+    * GITHUB_USER (your github user name)
+
+in constants.php file with your git credentials
 
